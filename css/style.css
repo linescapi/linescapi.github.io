@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  color: rgba(51, 50, 50, 0.863);
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(127, 255, 212, 0.493);
+}
+
+.container {
+  margin: auto;
+  padding: 30px 40px;
+}
+
+.title {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 30px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  position: relative;
+  margin: 25px 15px 0px 15px;
+  float: left;
+  border: 1px solid rgba(51, 50, 50, 0.863);
+  border-radius: 5px;
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0.863);
+}
+
+.col-lg-3 {
+  width: 30%;
+}
+
+.item-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 7px 25px;
+  margin-right: -0.5px;
+  border-left: 1px solid rgba(51, 50, 50, 0.863);
+  border-bottom: 1px solid rgba(51, 50, 50, 0.863);
+  border-radius: 0 5px 0 0;
+}
+
+
+#chicken {
+  background-color: rgba(188, 143, 143, 0.76);
+}
+
+#beef {
+  background-color: rgba(255, 99, 71, 0.76);
+}
+
+#sushi {
+  background-color: rgba(244, 165, 96, 0.76);
+}
+
+.item-title h5 {
+  font-size: 20px;
+}
+
+.item-descprition {
+  margin-top: 30px;
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .col-md-6 {
+    width: 45%;
+  }
+
+  .col-md-12 {
+    width: 93.6%;
+    float: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-sm-12 {
+    width: 96%;
+  }
+}
